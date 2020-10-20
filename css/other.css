@@ -1,0 +1,109 @@
+body {
+    background-image: url("../assets/ut3_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#chisono {
+    display: none;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#chisono > div {
+    width: 33.33%;
+    height: 100%;
+}
+
+#progetti {
+    display: none;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#progetti > div {
+    width: 33.33%;
+    height: 100%;
+}
+
+#contattami {
+    display: none;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#contattami > div {
+    width: 33.33%;
+    height: 100%;
+}
+.content {
+    border-radius: 10%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center > div {
+    width: 100%;
+    height: 60%;
+    color: black;
+    text-align: center;
+    font-family: UltimateTeamCondensed, sans-serif;
+}
+
+#description > p {
+    font-size: large;
+}
+
+/* Collegamenti */
+
+.collegamenti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.collegamenti > div {
+    width: 20%;
+    text-align: center;
+}
+
+div > a {
+    color: black;
+}
+
+button {
+    width: auto;
+    background-color: red;
+    color: white;
+    border-color: white;
+    border-radius: 20px !important;
+    cursor: pointer;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* contatti */
+
+#contatti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50%;
+}
+
+.fa {
+    color: black;
+}

@@ -1,0 +1,131 @@
+@media only screen and (max-width: 900px) {
+    /* page on load */
+    .left {
+        background-image: url("../assets/Diego_UT2.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+
+    .h2, h2{
+        font-size: small!important;
+    }
+    #home{
+        height: 100vh;
+    }
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #main > div {
+        display: flex;
+        width: 100%;
+        height: 50vh;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .right:first-child div{
+        display: none;
+    }
+    .right > div {
+        width: 50%;
+        height: 100%;
+        font-family: UltimateTeamCondensed, sans-serif;
+        color: white;
+    }
+    #legend{
+        width: 100%;
+    }
+    #legend > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill {
+        width: 100%!important;
+    }
+    #hard{
+        display: none;
+    }
+    #soft {
+        width: 100%;
+        justify-content: center;
+    }
+    /*skill on click */
+    #stats {
+        display: flex;
+        flex-direction: column;
+        overflow: overlay;
+        width: 80%;
+        height: 55%;
+        background-color: rgba(255, 255, 255, 0.932);
+        border-radius: 20px;
+        position: absolute;
+        height: 80vh!important;
+        width: 90%!important;
+        left: 5%;
+        bottom: 3%;
+    }
+    #exit {
+        position: fixed;
+        top: 13%;
+        right: 0%;
+        left: inherit;
+    }
+
+    #chisono{
+        background-color: rgba(255, 255, 255, 0.932);
+        height: 120hv;
+    }
+    #progetti, #contattami {
+        background-color: rgba(255, 255, 255, 0.732);
+    }
+    #description > p {
+        font-size: small;
+    }
+    
+    .title{
+        border-radius: 20px;
+    }
+    .title > h1 {
+        font-size: revert;
+        color: black;
+    }
+    .content {
+        position: absolute;
+        width: 80%!important;
+        top: 12%;
+        left: 10%;
+    }
+
+    .collegamenti{
+        position: absolute;
+        height: 20%!important;
+        justify-content: center;
+        font-size: small;
+        bottom: 5%;
+        left: 0%;
+        height: auto;
+    }
+
+    .chi-sono{
+        height: auto!important;
+    }
+
+    .work {
+        top: 25%!important;
+    }
+
+    .social {
+        top: 25%!important;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .chi-sono > div {
+    display: none;
+    }
+}

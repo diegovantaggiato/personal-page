@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a {
+    color: white !important;
+}
+
+section {
+    height: 100vh;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.text-white {
+    cursor: pointer;
+}
+/* Page on Load */
+#home{
+    background-image: url("../assets/ut2_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#main > div {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+.right{
+    flex-direction: column;
+}
+.right > div {
+    width: 100%;
+    height: 33%;
+    font-family: UltimateTeamCondensed, sans-serif;
+    color: white;
+}
+
+#legend {
+    display: flex;
+    flex-direction: column;
+}
+
+#legend > div {
+    width: 100%;
+}
+/* skill button */
+.skill{
+    display: flex;
+    flex-direction: row;
+}
+.skill > div {
+    height: 100%;
+    width: 40%;
+}
+
+#soft {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+button {
+    width: auto;
+    padding: 5px;
+    background-color: purple;
+    font-size: revert;
+    border-color: white;
+    border-radius: 20px !important;
+    cursor: pointer;
+}
+
+
+.left {
+    background-image: url("../assets/Diego_UT2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+
+/* Stats*/
+#exit {
+    display: inline;
+    width: 30px !important;
+    position: relative;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    left: 100%;
+    top: 88%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+#bio {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#bio > div {
+    height: 40%;
+    width: 85%;
+    margin: 0 auto;
+} 
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 55%;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 20px;
+}
+
+#stats > div {
+    display: flex;
+    width: 33%;
+    height: 100%;
+    color: black;
+    font-family: UltimateTeamCondensed, sans-serif;
+}
+
+.progress {
+    background-color: rgb(75, 72, 72)!important;
+}
+
+.hardSkill{
+    flex-direction: column;
+}
+.hardSkill > div {
+    width: 100%;
+}
+
+.boxCard {
+    background-image: url("../assets/Diego_UT2.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.softSkill{
+    flex-direction: column;
+}
+.softSkill > div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.hardSkill, .softSkill {
+    padding: 15px;
+}
