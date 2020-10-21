@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+button{
+    color: white;
+}
 
 a {
     color: white !important;
@@ -92,11 +95,13 @@ button {
     width: auto;
     padding: 5px;
     background-color: purple;
-    font-size: revert;
+    font-size: small;
     border-color: white;
     border-radius: 20px !important;
     cursor: pointer;
+    width:max-content ;
 }
+
 
 
 .left {

@@ -1,0 +1,95 @@
+@media only screen and (max-width: 900px) {
+    #progetti, #chisono, #contattami {
+        background-color: rgba(255, 255, 255, 0.632);
+    }
+    /* page on load */
+    .left {
+        background-image: url("../assets/Diego_UT2.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+
+    .h2, h2{
+        font-size: small!important;
+    }
+    #home{
+        height: 100vh;
+    }
+    #main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #main > div {
+        display: flex;
+        width: 100%;
+        height: 50vh;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .right:first-child div{
+        display: none;
+    }
+    .right > div {
+        width: 50%;
+        height: 100%;
+        font-family: UltimateTeamCondensed, sans-serif;
+        color: white;
+    }
+    #legend{
+        width: 100%;
+    }
+    #legend > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill {
+        width: 100%!important;
+    }
+    #hard{
+        display: none;
+    }
+    #soft {
+        width: 100%;
+        justify-content: center;
+    }
+    /*skill on click */
+    #stats {
+        display: flex;
+        flex-direction: column;
+        overflow: overlay;
+        width: 80%;
+        height: 55%;
+        background-color: rgba(255, 255, 255, 0.932);
+        border-radius: 20px;
+        position: absolute;
+        height: 80vh!important;
+        width: 90%!important;
+        left: 5%;
+        bottom: 3%;
+    }
+    #exit {
+        position: fixed;
+        top: 13%;
+        right: 0%;
+        left: inherit;
+    }
+    .description {
+        height: 80vh;
+    }
+    .chi-sono {
+        position: fixed;
+        flex-direction: row;
+        bottom: 0%;
+        left: 30%;
+    }
+    /*chi sono */
+    .text-box {
+        height: 80vh;
+        overflow: overlay;
+    }
+}
